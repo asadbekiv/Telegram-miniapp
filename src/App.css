@@ -40,3 +40,117 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+/* General App Styling */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Counter Section */
+.counter {
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter button:hover {
+  background-color: #0056b3;
+}
+
+.counter p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Calculator Styling */
+.calculator {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.calculator h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.display {
+  margin-bottom: 15px;
+}
+
+.display input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.result {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.buttons .clear {
+  background-color: #ff4d4d;
+}
+
+.buttons .clear:hover {
+  background-color: #cc0000;
+}
+
